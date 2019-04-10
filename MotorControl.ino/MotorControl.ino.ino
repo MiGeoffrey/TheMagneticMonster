@@ -40,13 +40,13 @@ void loop() {
       Serial.println("TheMagneticMonster");
       
     // --- Left
-    } else if (input.equals("left")) {
+    } else if (input.equals("right")) {
       
       digitalWrite(pDir, LOW);
       Serial.println("LeftDir");
       
      // --- Right
-    } else if (input.equals("right")) {
+    } else if (input.equals("left")) {
       
       digitalWrite(pDir, HIGH);
       Serial.println("RightDir");
